@@ -47,8 +47,9 @@ function deletePokemon(&$pokedex, $nombre)
     $position = searchPokemon($pokedex, $nombre);
 
     if ($position != -1) {
-        unset($pokedex[$position]);
-        $pokedex = array_values($pokedex);
+        // unset($pokedex[$position]);
+        // $pokedex = array_values($pokedex);
+        array_splice($pokedex, $position, 1);
     }
 }
 
