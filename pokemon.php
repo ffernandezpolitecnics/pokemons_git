@@ -17,7 +17,7 @@
                 &nbsp;&nbsp;Pokémon
             </div>
             <div class="card-body">
-                <form action="./index.php" method="post" enctype="multipart/form-data">
+                <form action="./tabla.php" method="post" enctype="multipart/form-data">
                     <!-- Número de pokémon -->
                     <div class="form-group row">
                         <label for="inputNumero" class="col-sm-2 col-form-label">Número</label>
